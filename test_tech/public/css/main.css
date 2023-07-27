@@ -1,0 +1,199 @@
+
+body{
+    background-color: #e5f4fa;
+}
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.main-head {
+    margin-top: 1rem;
+    padding-left: 0;
+}
+.statut{
+    width: fit-content;
+    border-radius: 9999px;
+    border-color: black;
+    
+}
+.table-head {
+    background-color: antiquewhite;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visible button {
+    margin-top: 6px;
+    border: none;
+    color: rgb(4, 4, 91);
+    margin-left: 0.8rem;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.edit button {
+    border: none;
+    color: rgb(4, 4, 91);
+    margin-left: 0.8rem;
+}
+
+.delete button {
+    border: none;
+    color: red;
+    margin-left: 0.8rem;
+}
+.empty{
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+.search-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0.8rem;
+}
+.form{
+    width: 30%;
+    
+}
+.form form{
+    display: flex;
+    align-items: center;
+}
+.form span{
+    padding-top: 4px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.form .btn-search {
+    border: 1px solid rgb(163, 161, 161);
+    background-color: #0a0acf;
+    width: 18%;
+    border-radius: 5px;
+}
+.form .btn-search:hover {
+    background-color: #6540ec;
+}
+.search-section button {
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 17px;
+}
+.table-conteent{
+    background-color: aliceblue;
+}
+.table-head th{
+    color: gray;
+    background-color: aliceblue;
+    
+}
+
+/* style modal ajouter contact */
+.nom-contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prenom{
+    width: 48%;
+    
+}
+.nom{
+    width: 50%;
+    
+}
+
+.code-postal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.code-postal .code{
+    width: 48%;
+   
+}
+.code-postal .ville{
+    width: 50%;
+}
+.detail-contact label {
+color: gray;
+font-weight: 520;
+}
+.annuler{
+    background-color: #eef8fc;
+    border: 1px solid gray;
+    font-weight: 600;
+    color: black;
+}
+.valide {
+    border: 1px solid black;
+    font-weight: 550;
+}
+/* style des erreurs de formulaire ajouter contact */
+.error-prenom{
+    width: 48%;
+}
+.error-nom{
+    width: 50%;
+    border: 3px solid black;
+}
+.supprime-icon {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+    background-color: rgb(243, 206, 206);
+    margin-right: 1rem;
+    color: red;
+    font-weight: 600;
+}
+.supprime-content p{
+margin-bottom: 0;
+font-size: 1rem;
+font-weight: bold;
+margin-left: 2.5rem;
+color: rgb(79, 78, 78);
+}
+.annule {
+    border: 1px solid rgb(218, 214, 214);
+}
+
+/* style detail conatct */
+.detail-contact {
+    width: 100%;
+}
+.show-detail {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.libel {
+    color: gray;
+    font-weight: bold;
+    width: 30%;
+    margin-bottom: 0.4rem;
+}
+.detail-content {
+    width: 70%;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+#monConteneur{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 96%;
+}
